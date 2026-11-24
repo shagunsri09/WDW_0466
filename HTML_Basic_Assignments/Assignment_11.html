@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accessible Page</title>
+</head>
+<body>
+    <a href="#main">Skip to main content</a><br>
+    <a href="#help">Home Help</a>
+
+    <main id="main">
+        <h1>Accessible Page</h1>
+        <form>
+            <label for="site-search">Search:</label>
+            <input type="search" id="site-search" name="q" aria-label="Search the website">
+            <button type="reset" aria-label="Clear search">X</button>
+        </form>
+        <p id="help">Help: Enter a word to search this page.</p>
+    </main>
+</body>
+</html>
